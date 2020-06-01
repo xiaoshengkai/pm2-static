@@ -1,6 +1,6 @@
 {
   "name": "pm2-static",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "实现利用pm2挂载静态资源",
   "bin": {
     "pm2-static": "./bin/index.js"

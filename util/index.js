@@ -18,7 +18,6 @@ module.exports = {
     return function recursion (dirPath = public, files = []) {
       // 读取文件夹
       let childFiles = fs.readdirSync(dirPath)
-      status = 'end'
       // 遍历目录
       childFiles.forEach((childPath) => {
         // 解析子文件/文件夹路径

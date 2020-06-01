@@ -26,7 +26,7 @@ const commande = () => new Promise((resolve) => {
     // 设置进程名称
     vm.projectName = json.projectName || program.projectName
     // 将端口存入文件，供其他进程读取
-    fs.writeFileSync(path.resolve(`${__dirname}/../port.txt`), json.port || projectName.port)
+    fs.writeFileSync(path.resolve(`${__dirname}/../port.txt`), json.port || program.port)
     if (!vm.projectName) {
       const mainComande = Object.keys(bin)[0]
       console.log(chalk.red(`请设置项目名，比如命令 ${mainComande} -n 项目名称`));
