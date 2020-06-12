@@ -1,6 +1,6 @@
 {
   "name": "pm2-static",
-  "version": "0.1.17",
+  "version": "0.1.19",
   "description": "实现利用pm2挂载静态资源",
   "bin": {
     "pm2-static": "./bin/index.js"
@@ -11,6 +11,7 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
+    "dayjs": "^1.8.28",
     "finalhandler": "^1.1.2",
     "serve-static": "^1.14.1"
   },
@@ -18,5 +19,8 @@
     "pm2",
     "static"
   ],
-  "repository": "https://github.com/xiaoshengkai/pm2-static.git"
+  "repository": "https://github.com/xiaoshengkai/pm2-static.git",
+  "devDependencies": {
+    "dayjs": "^1.8.28"
+  }
 }

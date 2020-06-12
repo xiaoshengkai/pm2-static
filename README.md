@@ -12,7 +12,7 @@ npm i -g pm2-static
 ```
 cd public<静态资源文件> && pm2-static -n project
 ```
-<img src="http://mpv-blog.oss-cn-beijing.aliyuncs.com/image.png" width="1200" />
+<img src="http://mpv-blog.oss-cn-beijing.aliyuncs.com/1591782683974/image.png" width="1200" />
 
 #### 更改自己的端口
 
